@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Times;
+}
+
+.nav{
+    padding: 10px 10vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fcd3d3;
+    z-index: 9;
+}
+
+
+.navbar-items{
+    display: flex;
+    align-items:center;
+}
+.logo{
+    height: 100px;
+}
+
+
+
+.casuta-cautare{
+    width: 80%;
+    height: 45px;
+    padding: 10px;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border: 1px solid #bdb1b1;
+    text-transform: capitalize;
+    background: none;
+    color: #d75050;
+    outline: none;
+}
+.search{
+    width: 550px;
+    display: flex;
+}
+
+
+
+.casuta-cautare::placeholder{
+    color: #c3bbbb;
+}
+
+.buton-cautare{
+    width: 20%;
+    height: 45px;
+    padding: 12px 22px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: #464545;
+    color: rgb(237, 226, 226);
+    text-transform: capitalize;
+    font-size: 17px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+}
+
+
+.navbar-items a img{
+    width: 33px;
+    cursor: pointer;
+}
+.navbar-items a{
+    margin-left: 20px;
+    position: relative;
+}
+
+
+
+.link{
+    text-transform: capitalize;
+    padding: 0 15px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #3c3939;
+    opacity: 0.7;
+    transition: .7s;
+}
+.link-items{
+    width: 100%;
+    display: flex;
+    padding: 11px 11vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #cabebe;
+}
+
+
+
+.popUp-pt-login-logout{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background: rgb(245, 235, 235);
+    border-radius: 13px;
+    top: 44px;
+    width: 250px;
+    transition: .3s;
+    border: 2px solid #ddd6d6;
+}
+.link:hover{
+    opacity: 1.5;
+}
+
+
+
+.info-cont{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.popUp-pt-login-logout::after{
+    content: '';
+    position: absolute;
+    top: -7.5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    width: 20px;
+    height: 20px;
+    background: rgb(228, 217, 217);
+    border-radius: 7px;
+}
+
+
+.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#buton-utilizator{
+    padding: 13px;
+    background: #434141;
+    color: rgb(227, 216, 216);
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 25px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+

@@ -1,0 +1,17 @@
+
+.eror404{
+    color: #383838;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+
+.eror404 a{
+    color: #383838;
+}
+
+.error404{ 
+    margin: 60px auto;
+    display: block;
+  
+}

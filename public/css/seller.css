@@ -1,0 +1,223 @@
+body{
+    width: 100%;
+    display: block;
+    min-height: 95vh;
+    padding: 0 7vw;
+    position: relative;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.hide{
+    display: none;
+}
+
+.logo{
+    margin: 25px auto 55px;
+}
+
+
+
+/* become seller element */
+.rubrica{
+    text-transform: none;
+    font-weight: 750;
+    font-size: 20px;
+    text-align: center;
+}
+
+.seller-nou{
+    border-radius: 15px;
+    background: rgb(250, 242, 242);
+    padding: 30px;
+}
+
+
+.btn{
+    border: none;
+    outline: none;
+    background: #585656;
+    color: rgb(253, 241, 241);
+    padding: 25px 30px;
+    border-radius: 7px;
+    text-transform: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 560px;
+    
+    
+}
+
+.des{
+    margin: 25px 0;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+
+/* apply form */
+.campuri-de-completat input:not(input[type="checkbox"]){
+    width: 100%;
+}
+.campuri-de-completat input, textarea{
+    font-weight: 550;
+}
+
+
+
+.buton-trimitere-date{
+    margin: 15px 0;
+    width: auto;
+    padding: 0 45px;
+}
+.campuri-de-completat textarea{
+    width: 100%;
+    height: 95px;
+    resize: none;
+    padding: 15px 25px;
+}
+
+
+
+/* product listing */
+.adaugare-titlu-produse{
+    text-transform: capitalize;
+    color: #4a4646;
+}
+.add-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(171, 167, 167);
+    padding: 15px 25px;
+    border-radius: 15px;
+    margin-bottom: 55px;
+}
+
+
+
+.hide{
+    display: none;
+}
+
+.lipsa-produse{
+    display: block;
+    margin: auto;
+}
+
+
+.tag{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 2.5px 15px;
+    border-radius: 3px;
+    background: rgb(255, 249, 249);
+    color: #4c4848;
+}
+.container-produse{
+    padding: 0;
+}
+
+
+
+.card-action-btn{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+    background: rgb(253, 246, 246);
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+}
+.fereastra-produse:hover .card-action-btn{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+
+.open-btn{
+    top: 65px;
+}
+.card-action-btn img{
+    height: 20px;
+}
+
+
+
+.alerta-stergere{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(16, 16, 16, 0.2);
+    z-index: 2;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-popup-btn{
+    top: 115px;
+    background: #d34949;
+}
+
+
+.buton-inchidere-popup{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.alert{
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+    background: rgb(255, 251, 251);
+    box-shadow: 0 15px 35px rgba(16, 16, 16, 0.2);
+    position: relative;
+    padding: 20px;
+}
+
+
+
+.icon-pt-stergere{
+    height: 65px;
+    display: block;
+    margin: 25px auto;
+}
+
+.buton-inchidere-popup img{
+    width: 20px;
+}
+
+
+.buton-stergere-def{
+    cursor: pointer;
+    border: none;
+    border-radius: 7px;
+    background: #f45757;
+    margin: 20px auto 0;
+    display: block;
+    padding: 15px 25px;
+    text-transform: capitalize;
+    color: rgb(251, 240, 240);
+}
+.text{
+    color: #4b4747;
+    text-transform:uppercase;
+    text-align: center;
+}
+

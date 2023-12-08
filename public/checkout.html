@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesare</title>
+
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/checkout.css">
+
+</head>
+<body>
+
+    <nav class="navbar"></nav>
+
+    <div class="fereastra-alerta">
+        <img src="img/error.png" class="imagine-alerta" alt="">
+        <p class="mesaj-alerta"></p>
+    </div>
+
+    <div class="form">
+        <h1 class="rubrica">Procesare</h1>
+        <p class="text">Adresa de livrare</p>
+        <input type="text" id="address" placeholder="Adresa">
+        <input type="text" id="street" placeholder="Strada">
+        <div class="dialoguri-de-completat">
+            <input type="text" id="pincode" placeholder="Codul postal">
+            <input type="text" id="city" placeholder="Oras">
+            <input type="text" id="state" placeholder="Tara">
+            <input type="text" id="numbercard" placeholder="Numarul cardului">
+            <input type="text" id="card-holder-name" placeholder="Numele detinatorului cardurlui">
+            <input type="text" id="expire-date" placeholder="Data de expirare card">
+            <input type="text" id="secretcode" placeholder="Cod CVV card(aflat pe spatele cardului)">
+        </div>
+        
+    </div>
+
+    <div class="sectiune-cos">
+        <div class="lista-produse">
+            <p class="rubrica-lista-produse">Produsele tale</p>
+            <div class="cart">
+                
+            </div>
+        </div>
+        <div class="sectiune-checkout">
+            <div class="checkout-box">
+                <p class="text">Total</p>
+                <h1 class="total-de-plata">$00</h1>
+                <button class="buton-plaseaza-comanda">Plasează comanda</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/nav.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/token.js"></script>
+    <script src="js/checkout.js"></script>
+    
+</body>
+</html>

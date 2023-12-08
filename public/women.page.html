@@ -1,0 +1,35 @@
+<!DOCTYPe <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Women-Apparels</title>
+        <link rel="stylesheet" href="css/home.css">
+
+
+
+    </head>
+
+
+    <body>
+
+        <nav class="navbar"></nav>
+
+
+        <section id="produse-femei"></section>
+
+
+       <footer></footer>
+
+        <script src="js/nav.js"></script>
+        <script src="js/footer.js"></script>
+        <script src="js/home.js"></script>
+
+        <script>
+            obtinereProduse('Rochie').then(data => creareSliderProduse(data, '#produse-femei', 'Produse pentru femei'))
+        </script>
+        
+
+    </body>
+</html>

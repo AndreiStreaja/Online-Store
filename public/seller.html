@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produsele tale</title>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/search.css">
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/seller.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+
+<body>
+    <nav class="navbar"></nav>
+
+    <img src="img/loader.gif" class="loader" alt="">
+
+    <div class="fereastra-alerta">
+        <img src="img/error.png" class="imagine-alerta" alt="">
+        <p class="mesaj-alerta">Error</p>
+    </div>
+
+    <img src="img/logo.png" class="logo" alt="">
+
+    <!-- Inregistrare seller nou -->
+    <div class="seller-nou hide">
+        <p class="rubrica">Fii vânzător</p>
+        <button class="btn" id="buton-inregistrare">Aplică aici</button>
+    </div>
+
+    <!-- apply form -->
+    <div class="campuri-de-completat hide">
+        <input type="text" id="nume-afacere" placeholder="Numele companiei">
+        <textarea id="adresa-companie" placeholder="Adresă"></textarea>
+        <textarea id="despre-companie" placeholder="Introdu câteva detalii despre produsele tale"></textarea>
+        <input type="text" id="numar-telefon" placeholder="Introdu numărul de telefon">
+        <input type="checkbox" checked class="checkbox" id="termeni-si-conditii">
+        <label for="termeni-si-conditii">Acceptă <a href="">termenii și condițiile</a></label>
+        <br>
+        <input type="checkbox" checked class="checkbox" id="date-valide">
+        <label for="date-valide">Toate informațiile sunt valide</a>
+        </label>
+        <button class="buton-trimitere-date" id="apply-form-btn">Aplică</button>
+    </div>
+
+    <!-- Lista produse -->
+    <div class="lista-produse hide">
+        <div class="add-product">
+            <p class="adaugare-titlu-produse">Produsele tale</p>
+            <button class="btn" onclick="location.href = '/add-product'">Adaugă produse</button>
+        </div>
+        
+        <img src="img/no-products.png" class="lipsa-produse hide" alt="">
+
+        <!-- Stergere produse -->
+        <div class="alerta-stergere">
+            <div class="alert">
+                <button class="buton-inchidere-popup"><img src="img/close.png" alt=""></button>
+                <img src="img/delete-warning.png" class="icon-pt-stergere" alt="">
+                <p class="text">Ești sigur că vrei să ștergi acest produs?</p>
+                <button class="buton-stergere-def">Șterge</button>
+            </div>
+        </div>
+        <!-- Produse -->
+        <div class="container-produse">
+
+    </div>
+
+    <footer></footer>
+    <script src="js/nav.js"></script>
+    <script src="js/token.js"></script>
+    <script src="js/createProduct.js"></script>
+    <script src="js/seller.js"></script>
+    <script src="js/footer.js"></script>
+    
+
+</body>
+
+</html>

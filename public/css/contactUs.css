@@ -1,0 +1,160 @@
+.title
+{
+    font-size: 55px;
+    font-weight: bold;
+    padding: 1.5% 0;
+}
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 3%;
+}
+
+.title-info
+{
+	padding-bottom: 3%;
+}
+
+
+
+input, textarea
+{
+    color: inherit;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1.5px solid #858484;
+    padding: 2%;
+    font-size: 25px;
+}
+
+.input-group, .textarea-group
+{
+    padding: 1.5% 0;
+}
+
+
+
+input::placeholder, textarea::placeholder
+{
+    color: transparent;
+}
+
+input:focus, textarea:focus
+{
+    background-color: transparent;
+    outline: transparent;
+    border-bottom: 2.5px solid #62f0ab;
+}
+
+
+
+input:focus ~ label, input:not(:placeholder-shown) ~ label
+{
+    top: -5em;
+    color: #5ef9ae;
+    font-size: 20px;
+}
+
+label
+{
+    color: #787272;
+    position: relative;
+    left: 1em;
+    top: -2em;
+	cursor: auto;
+    transition: 0.3s ease all;
+}
+
+
+
+.button-div
+{
+    display: flex;
+    justify-content: center;
+}
+
+textarea:focus ~ label, textarea:not(:placeholder-shown) ~ label
+{
+    top: -11em;
+    color: #4beb9d;
+    font-size: 20px;
+}
+
+
+button:hover
+{
+    background-color: #525050;
+    color: #4cfda8;
+    cursor: pointer;
+}
+
+button
+{
+    padding: 2.5%;
+    width: 55%;
+    border: 1.5px solid;
+    border-color: #343232;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 20px;
+    background-color: rgb(3, 3, 3);
+    color: inherit;
+    box-shadow: 0 0 15pxrgb(57, 56, 56)1;
+}
+
+
+body
+{
+    background-color: rgb(1, 1, 1);
+    font-family: 'Overpass Mono', monospace;
+    color: #fdf1f1;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+a:hover
+{
+    color: #50e49d;
+}
+
+a
+{
+    text-decoration: none;
+    color: #dfdddd;
+}
+
+
+.button1{
+    text-align: center;
+    padding-top: 35px;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+

@@ -1,0 +1,174 @@
+body{
+    display: block;
+    padding: 0 15vw;
+}
+
+.logo{
+    margin: 25px auto 55px;
+}
+
+
+input, textarea{
+    font-weight: 450;
+}
+
+
+.imagini-produse{  
+    grid-template-columns: .80fr 1.30fr;
+    margin-bottom: 30px;
+    grid-template-rows: repeat(3, 2fr);
+    display: grid;
+    height: 550px;
+    grid-gap: 25px;
+    width: 100%;
+}
+
+textarea{
+    padding: 20px 30px;
+    width: 100%;
+    resize: none;
+    height: 300px;
+}
+
+
+
+.text{
+    font-weight: 580;
+    font-size: 25px;
+    color: #6e2525;
+    text-transform: capitalize;
+}
+
+.imagini{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(251, 246, 246);
+    background-size: cover;
+    border-radius: 10px;
+    grid-row: span 2;
+    text-shadow: 0 0 10px rgb(246, 233, 233);
+}
+
+
+
+.text img{
+    margin-right: 15px;
+    height: 25px;
+}
+
+.incarcare-poze, .marimi{
+    padding: 25px;
+    background: rgb(255, 238, 238);
+    border-radius: 20px;
+
+}
+
+
+
+
+.incarcare-imagine{
+    cursor: pointer;
+    height: 100px;
+    width: 100%;
+    background: #c8c6c6;
+    background-size: cover;
+}
+
+.catalog-imagini{
+    grid-gap: 15px;
+    grid-template-columns: repeat(4, 100px);
+    display: grid;
+    width: 100%;
+    margin: 22px 0;
+}
+
+
+
+.marimi-disp{
+    margin-top: 35px;
+}
+
+.incarcare-imagine:hover{
+    background-size: cover;
+    background: rgba(12, 10, 10, 0.2);
+}
+
+
+
+
+.casuta-marime::after{
+    text-transform: uppercase;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    content: attr(value);
+}
+
+.casuta-marime{
+    color: #555252;
+    position: relative;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid #3f3636;
+    border-radius: 10px;
+    height: 45px;
+    width: 100px;
+    -webkit-appearance: none;
+}
+
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    margin: 0;
+    -webkit-appearance: none;
+}
+
+.casuta-marime:checked{
+    color: rgb(244, 224, 224);
+    background: #302626;
+}
+
+
+
+.pret-produs input{
+    margin: 0;
+}
+
+.pret-produs{
+    grid-gap: 25px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+}
+
+.btn{
+    cursor: pointer;
+    margin-right: 15px;
+    outline: none;
+    background: #635959;
+    border-radius: 10px;
+    border: none;
+    color: rgb(189, 178, 178);
+    text-transform: capitalize;
+    padding: 15px 25px;
+}
+
+.butoane{
+    margin: 15px 0 45px;
+}
+
+
+
+input:not(input[type="checkbox"]){
+    width: 100%;
+}
+
+#butonSalvareDrft{
+    background: #4b2929;
+}
+

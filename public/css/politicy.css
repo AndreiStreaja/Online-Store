@@ -1,0 +1,10 @@
+.about {
+    margin: auto;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family:cursive;
+    text-align:center;
+    background-image:url('../img/poltiticy.png');
+    background-size: cover;
+    text-shadow: 1px 1px #FF0000;  
+}

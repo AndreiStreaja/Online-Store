@@ -1,0 +1,24 @@
+.rubrica{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 450;
+    margin-bottom: 45px;
+    padding: 0 15vw;
+}
+.rezultate-cautare{
+    width: 100%;
+    padding: 50px 0 50px;
+
+}
+
+
+.container-produse{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: auto;
+    grid-row-gap: 45px;
+}
+.rubrica span{
+    font-weight: 750;
+}
+
